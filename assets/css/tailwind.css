@@ -1,0 +1,87 @@
+/* For Tailwind Suggestion In VS CODE  */
+@import 'tailwindcss';
+
+/* Hind Siliguri - Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+/* Color's */
+
+:root{
+  --swiper-pagination-color: #ff2e6a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pink-color {
+    color: #ff0a47;
+}
+
+.pink-bg {
+    background-color: #ff0a47;
+}
+
+.pink-border {
+    border-color: #ff0a47;
+}
+
+.light-pink-bg {
+    background-color: #FDE6EC;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Siliguri', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.shape {
+    background-color: #FDE6EC;
+    clip-path: polygon(
+        0% 0%,
+            4% 25%,
+                14% 25%,
+                    18% 50%,
+                        28% 50%,
+                            32% 75%,
+                                42% 75%,
+                                    50% 100%,
+                                    50% 100%,
+                                58% 75%,
+                            68% 75%,
+                        72% 50%,
+                    82% 50%,
+                86% 25%,
+            96% 25%,
+        100% 0%
+    );
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .shape{
+        clip-path: polygon(
+            0% 0%,
+                4% 25%,
+                    14% 25%,
+                        18% 50%,
+                            28% 50%,
+                                32% 75%,
+                                    42% 75%,
+                                        50% 100%,
+                                        50% 100%,
+                                    58% 75%,
+                                68% 75%,
+                            72% 50%,
+                        82% 50%,
+                    86% 25%,
+                96% 25%,
+            100% 0%
+        );
+    }
+}
+
+.swiper-pagination {
+    color: white;
+}
